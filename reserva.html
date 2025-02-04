@@ -12,7 +12,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylereserva.css">
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
     <title>Tempero Moderno</title>
 </head>
@@ -26,9 +26,9 @@
             <div class="Amenu">
                 <section class="menu">
                     <ul>
-                        <li><a class="grifo" href="index.html">Página_Inicial</a></li>
+                        <li><a href="index.html">Página_Inicial</a></li>
                         <li><a href="cardapio.html">Cardápio</a></li>
-                        <li><a href="reserva.html">Reservas</a></li>
+                        <li><a class="grifo" href="reservas.html">Reservas</a></li>
                         <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </section>
@@ -39,15 +39,44 @@
     
     <main>
         <section class="conteudo">
-            
-                <h2>Tempero Moderno          </h2>
-                <h3>Tradição e inonvação de todas as partes do mundo para o seu prato!</h3>
-                <h4>Em um cenário onde a gastronomia é cada vez mais um reflexo de inovação, o nosso restaurante surge como um verdadeiro ponto de encontro entre o sabor e a modernidade. Pensado para aqueles que buscam uma experiência única e sofisticada, nosso espaço combina design contemporâneo, ambiente acolhedor e pratos que exploram a criatividade de forma ousada e deliciosa.</h4>
+        <h2>Reservar</h2><br>
 
-          
-                <li><a href="cardapio.html" class="acesso">Acesse o cardápio</a></li>
-
+        <form >
             
+            <!-- <form action="" method="POST">-->
+
+
+             <!-- Nome -->
+                     <label for="nome">Nome Completo:</label><br>
+                     
+                    
+             <input type="text" id="nome" name="nome" required> <br><br>
+             
+             
+             <!-- Preferencias -->
+                     <label for="text">Preferências especiais:</label><br>
+                     
+              
+             <input type="text" id="text" name="text"><br><br>
+             
+                     
+             
+             <!-- Telefone -->
+                     
+                     
+             <label for="telefone">Telefone:</label><br>
+                     <input type="tel" id="telefone" name="telefone" pattern="[0-9]{11}" placeholder="(XX) XXXXX-XXXX" required><br><br>
+                    
+             
+                     <!-- Data -->
+                     <label for="data">Data de Nascimento:</label><br>
+                     <input type="date" id="data" name="data" required><br><br>
+                               
+             </select>
+                                       
+             <!-- Botão de Enviar -->
+             <button type="submit">Agendar</button>
+         </form>
         </section>
     </main>
     <footer>

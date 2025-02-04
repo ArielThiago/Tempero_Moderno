@@ -129,14 +129,11 @@ li a{
 
 .conteudo{
     text-align: justify;
-    padding-left: 50px;
     display: flex;
     flex-direction: column;
-    padding-right: 500px;
-    align-items: start;
-    padding-top: 200px;
+    align-items: center;
+    padding-top: 100px;
     width: 100%;
-    padding-bottom: 75px;
 }
 
 .acesso{
@@ -148,3 +145,32 @@ li a{
     font-size: 24pt;
     border-radius: 10%;
 }
+
+button{
+    font-family: "Italiana", serif;
+    font-size: 24pt;
+    height: 100px;
+    height: 50px;
+    outline: none;
+    border: 0px;   
+    background-color: yellow;
+    border-radius: 15px;
+}
+select{
+    padding-right: 25px;
+    font-size: 20pt;
+    height: 90px;
+    height: 40px;  
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+form{
+    padding: 25px;
+}
+
+input{
+    font-size: 20px;
+    width: 600px;
+    height: 25px;
+    }
