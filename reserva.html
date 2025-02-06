@@ -61,27 +61,37 @@
              
                      
              
-             <!-- Telefone -->
-                     
-                     
-             <label for="telefone">Telefone:</label><br>
-                     <input type="tel" id="telefone" name="telefone" pattern="[0-9]{11}" placeholder="(XX) XXXXX-XXXX" required><br><br>
-                    
+             <!-- Número de Pessoas -->
+                           
+             <label for="numero_pessoas">Número de Pessoas:</label><br>
+             <input type="number" id="numero_pessoas" name="numero_pessoas" min="1" max="50" required><br><br>
              
+
                      <!-- Data -->
-                     <label for="data">Data de Nascimento:</label><br>
-                     <input type="date" id="data" name="data" required><br><br>
+                     <label for="data">Data para a Reserva:</label><br>
+                     <input type="date" id="data" name="data" required min="2025-01-01" required max="2025-12-31"><br><br>
+
+                     <label for="horario">Horário:</label><br>
+                     <input type="time" id="horario" name="horario" required><br><br>
                                
              </select>
                                        
              <!-- Botão de Enviar -->
+              <div style="padding-left: 250px;">
              <button type="submit">Agendar</button>
-         </form>
+
+            </div> 
+
+        </form>
         </section>
     </main>
     <footer>
         <img src="img/logo.ico" alt="" class="logo">
-        <li><a class="grifo2" href="contato.html">contato@temperomoderno.com</a></li>
+        <li><a href="https://www.instagram.com/andovinobar/"><img src="img/insta.png" class="insta2" alt="insta.jpg"></a></li>
+        <li><a href="https://www.facebook.com/p/Andovino-P%C3%A3o-e-Vinho-100084956205324/"><img src="img/face.png" class="face2" alt="face.jpg"></a></li>
+        <li><a class="grifo2" href="https://workspace.google.com/intl/pt-BR/gmail/">contato@temperomoderno.com</a></li>
+        <li><a class="grifo2" href="https://web.whatsapp.com/">(11) 93412-2304 (Whatsapp)</a></li>
+
     </footer>
 </body>
 </html>

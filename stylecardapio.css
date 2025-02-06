@@ -25,16 +25,8 @@ body{
     color:blue;
 }
 
-.acesso{
-    color: black;
-    background-color: crimson;
-    outline: none;
-    border: 0px;  
-    font-family: "Italiana", serif;
-    font-size: 24pt;
-    width: 300px;
-    height: 50px;
-    border-radius: 10%;
+.grifo2:hover{
+    color:rgb(155, 155, 255);
 }
 
 main{
@@ -48,6 +40,7 @@ main{
 }
 .Amenu{
     width: 50%;
+    padding-left: 25px;
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
@@ -73,6 +66,9 @@ main{
     font-family: "Italianno", serif;
     text-decoration: none; 
     font-size: 26pt;
+}
+.menu a:hover {  /* Alterado de .button:hover para button:hover */
+    color: rgb(101, 190, 0); /* Cor do texto mais clara */
 }
 .logo{
     opacity: 100%;
@@ -192,4 +188,14 @@ ul{
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+.face2{
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+}
+.insta2{
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
 }

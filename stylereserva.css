@@ -23,6 +23,9 @@ body{
 .grifo2{
     color:blue;
 }
+.grifo2:hover{
+    color:rgb(155, 155, 255);
+}
 
 main{
     display: flex;
@@ -60,6 +63,9 @@ main{
     font-family: "Italianno", serif;
     text-decoration: none; 
     font-size: 26pt;
+}
+.menu a:hover {  /* Alterado de .button:hover para button:hover */
+    color: rgb(101, 190, 0); /* Cor do texto mais clara */
 }
 .logo{
     opacity: 100%;
@@ -146,15 +152,21 @@ li a{
     border-radius: 10%;
 }
 
-button{
+button {
     font-family: "Italiana", serif;
     font-size: 24pt;
-    height: 100px;
-    height: 50px;
+    height: 50px; /* Definido apenas uma vez */
     outline: none;
-    border: 0px;   
-    background-color: yellow;
+    border: 0px;
+    background-color: #45a049;
     border-radius: 15px;
+    color: white; /* Cor do texto */
+    cursor: pointer;
+}
+
+button:hover {  /* Alterado de .button:hover para button:hover */
+    background-color: #286a2a; /* Cor de fundo mais escura */
+    color: white; /* Cor do texto mais clara */
 }
 select{
     padding-right: 25px;
@@ -166,6 +178,9 @@ select{
 }
 
 form{
+    font-family: "Italiana", serif;
+    font-size: 20pt;
+    color: #ffff;
     padding: 25px;
 }
 
@@ -173,4 +188,15 @@ input{
     font-size: 20px;
     width: 600px;
     height: 25px;
+    border-radius: 10px;
+    }
+    .face2{
+        border-radius: 20%;
+        width: 50px;
+        height: 50px;
+    }
+    .insta2{
+        border-radius: 20%;
+        width: 50px;
+        height: 50px;
     }
